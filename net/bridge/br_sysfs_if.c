@@ -296,7 +296,7 @@ static const struct brport_attribute *brport_attrs[] = {
 	&brport_attr_isolated,
 	&brport_attr_bpdu_filter,
 	&brport_attr_backup_port,
-	&brport_attr_offload
+	&brport_attr_offload,
 	NULL
 };
 
