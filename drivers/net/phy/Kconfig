@@ -89,7 +89,6 @@ config AR8216_PHY_LEDS
 	bool "Atheros AR8216 switch LED support"
 	depends on (AR8216_PHY && LEDS_CLASS)
 
-source "drivers/net/phy/b53/Kconfig"
 
 config IP17XX_PHY
 	tristate "Driver for IC+ IP17xx switches"
