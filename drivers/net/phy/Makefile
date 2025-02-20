@@ -29,7 +29,7 @@ obj-$(CONFIG_ADM6996_PHY)	+= adm6996.o
 obj-$(CONFIG_AR8216_PHY)	+= ar8xxx.o
 ar8xxx-y			+= ar8216.o
 ar8xxx-y			+= ar8327.o
-obj-$(CONFIG_SWCONFIG_B53)	+= b53/
+
 obj-$(CONFIG_IP17XX_PHY)	+= ip17xx.o
 obj-$(CONFIG_PSB6970_PHY)	+= psb6970.o
 obj-$(CONFIG_RTL8306_PHY)	+= rtl8306.o
